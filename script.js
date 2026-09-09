@@ -20,7 +20,7 @@
 
 const title = document.querySelector("#title");
 
-console.log(title);
+// console.log(title);
 
 
 // 2. Find card using CLASS
@@ -29,7 +29,7 @@ console.log(title);
 
 const card = document.querySelector(".card");
 
-console.log(card);
+// console.log(card);
 
 
 // 3. Find first button using TAG
@@ -38,7 +38,7 @@ console.log(card);
 
 const button = document.querySelector("button");
 
-console.log(button);
+// console.log(button);
 
 
 // 4. Find email input using ATTRIBUTE
@@ -47,7 +47,7 @@ console.log(button);
 
 const emailInput = document.querySelector('input[type="email"]');
 
-console.log(emailInput);
+// console.log(emailInput);
 
 
 // 5. Find product using ID + CLASS
@@ -61,7 +61,7 @@ console.log(emailInput);
 
 const product = document.querySelector("#product.card");
 
-console.log(product);
+// console.log(product);
 
 
 // 6. Find price INSIDE product-card
@@ -79,7 +79,7 @@ console.log(product);
 
 const price = document.querySelector(".product-card .price");
 
-console.log(price);
+// console.log(price);
 
 
 // 7. Find FIRST item using querySelector()
@@ -88,7 +88,7 @@ console.log(price);
 
 const firstItem = document.querySelector(".item");
 
-console.log(firstItem);
+// console.log(firstItem);
 
 
 // 8. Find ALL items using querySelectorAll()
@@ -96,7 +96,7 @@ console.log(firstItem);
 
 const items = document.querySelectorAll(".item");
 
-console.log(items);
+// console.log(items);
 
 
 // ==================================================
