@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>QuerySelector Practice</title>
+</head>
+
+<body>
+
+    <!-- 1. BY ID -->
+    <section>
+        <h1 id="title">Hello World</h1>
+    </section>
+
+
+    <!-- 2. BY CLASS -->
+    <section>
+        <div class="card">Product Card</div>
+    </section>
+
+
+    <!-- 3. BY TAG -->
+    <section>
+        <button>Click Me</button>
+        <button>Another Button</button>
+        <button>Third Button</button>
+    </section>
+
+
+    <!-- 4. BY ATTRIBUTE -->
+    <section>
+        <input type="text" placeholder="Enter name">
+
+        <input type="email" placeholder="Enter email">
+
+        <input type="password" placeholder="Enter password">
+
+        <div data-user-id="101">User One</div>
+        <div data-user-id="102">User Two</div>
+    </section>
+
+
+    <!-- 5. COMBINE ID + CLASS -->
+    <section>
+        <div id="product" class="card">
+            Product 1
+        </div>
+
+        <div id="product-2" class="card">
+            Product 2
+        </div>
+    </section>
+
+
+    <!-- 6. FIND SOMETHING INSIDE SOMETHING ELSE -->
+    <section>
+        <div class="product-card">
+
+            <h2>Product Name</h2>
+
+            <div class="details">
+                <p class="price">₹999</p>
+                <p class="stock">In Stock</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- 7. MULTIPLE MATCHES -->
+    <section>
+
+        <p class="item">One</p>
+        <p class="item">Two</p>
+        <p class="item">Three</p>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
